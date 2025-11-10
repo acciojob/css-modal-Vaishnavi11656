@@ -17,7 +17,7 @@ body{
 .modal-content{
 	background-color:#fefefe;
 	margin:auto;
-	padding:80px;
+	padding:20px;
 	border:1px solid #888;
 	width:80%;
 	max-width:500px;
@@ -39,11 +39,11 @@ body{
 	
 }
 
-.close-model{
+.close-modal{
 	color:#aaa;
 	font-size:28px;
 	font-weight:bold;
-	cursorLpointer;
+	cursor:pointer;
 }
 .close-modal:hover,
 .close-modal:focus {
