@@ -4,15 +4,15 @@ const openBtn = document.getElementById("openModal");
 const closeBtn = document.getElementById(".close-modal");
 
 
-openBtn.onClick = function(){
-	modal.style.display = "flex";
+openBtn.onclick = function(){
+	modal.style.display = "block";
 }
 
-closeBtn.onClick = function (){
+closeBtn.onclick = function (){
 	modal.style.display = "none";
 }
 
-modal.onClick = function(event){
+modal.onclick = function(event){
 	if(event.target == modal){
 		modal.style.display = "none";
 	}
